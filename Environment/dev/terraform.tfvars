@@ -10,14 +10,10 @@ vnet0108 = {
     location            = "eastus"
     resource_group_name = "rg1"
     address_space       = ["10.0.0.0/16"]
-    subnets = {
-      subnet2 = {
-        name           = "subnet1"
-        address_prefix = ["10.0.1.0/24"]
-      }
+  
     }
   }
-}
+
 storageAccount = {
   sa12 = {
     name                     = "sa0108"
